@@ -1,3 +1,4 @@
+
 package com.cannabaze
 
 import com.facebook.react.ReactActivity
@@ -11,6 +12,10 @@ class MainActivity : ReactActivity() {
    * Returns the name of the main component registered from JavaScript. This is used to schedule
    * rendering of the component.
    */
+//   override fun onCreate(savedInstanceState: Bundle?) {
+//     SplashScreen.show(this) // <-- Add this line
+//     super.onCreate(savedInstanceState)
+// }
   override fun getMainComponentName(): String = "cannabaze"
 
   /**
